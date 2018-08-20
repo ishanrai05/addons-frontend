@@ -79,7 +79,7 @@ export class InstallButtonBase extends React.Component {
     getClientCompatibility: PropTypes.func,
     guid: PropTypes.string.isRequired,
     handleChange: PropTypes.func,
-    hasAddonManager: PropTypes.bool,
+    hasAddonManager: PropTypes.bool.isRequired,
     header: PropTypes.string,
     headerURL: PropTypes.string,
     i18n: PropTypes.object.isRequired,
